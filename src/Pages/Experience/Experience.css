@@ -1,0 +1,83 @@
+/* Experience Section */
+.experience-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 100px 20px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Main Heading */
+  .experience-class h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Section Styles */
+  .internship, .Certification, .Acheivement {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .internship:hover, .Certification:hover, .Acheivement:hover {
+    transform: scale(1.03);
+  }
+  
+  /* Section Headings */
+  .internship h2, .Certification h2, .Acheivement h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Experience Details */
+  .internship-details, .course-details, .acheivements-details {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  .internship-details h3, .course-details h3,.acheivements-details h3 {
+    font-size: 20px;
+    color: #ffcc00;
+    margin-bottom: 8px;
+  }
+  
+  /* Experience List */
+  .internship-details p, .course-details p {
+    font-size: 18px;
+    color: #f1f1f1;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .internship, .Certification, .Acheivement {
+      padding: 20px;
+    }
+  
+    .internship-details, .course-details, .acheivements-details {
+      text-align: center;
+    }
+  }
+  

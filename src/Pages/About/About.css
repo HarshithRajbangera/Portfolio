@@ -1,0 +1,112 @@
+
+
+.about-class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 100px 20px 20px; 
+    overflow: auto; 
+  }
+  
+ 
+  .about-content {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+    min-height: 80vh; 
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .about-content:hover {
+    transform: scale(1.03);
+  }
+  
+  
+  .about-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .education {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+
+  
+  .education-content{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 3px solid #ffcc00;
+  }
+  
+  .education p {
+    font-size: 18px;
+    color: #f1f1f1;
+    line-height: 1.6;
+  }
+  
+  .hobbies-interest {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  .hobbies, .interests {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .hobbies h2, .interests h2 {
+    font-size: 24px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  
+  .hobbies ul, .interests ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hobbies li, .interests li {
+    font-size: 18px;
+    color: #f1f1f1;
+    padding: 8px 0;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hobbies li:hover, .interests li:hover {
+    transform: scale(1.1);
+    color: #ffd633;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .hobbies-interest {
+      flex-direction: column;
+    }
+  }
+    

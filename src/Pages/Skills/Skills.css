@@ -1,0 +1,105 @@
+
+.skills-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 100px 20px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .skills-class h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .technical-skills, .soft-skills {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .technical-skills:hover, .soft-skills:hover {
+    transform: scale(1.03);
+  }
+  
+
+  .technical-skills h2, .soft-skills h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .tech-skillset, .soft-skillset {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  .tech-skillset h3, .soft-skillset h3 {
+    font-size: 20px;
+    color: #ffcc00;
+    margin-bottom: 8px;
+  }
+  
+ 
+  .tech-skillset ul, .soft-skillset ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tech-skillset li, .soft-skillset li {
+    font-size: 18px;
+    color: #f1f1f1;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
+  }
+  
+  .tech-skillset li:hover, .soft-skillset li:hover {
+    transform: scale(1.1);
+    background: #ffcc00;
+    color: #1e3c72;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .technical-skills, .soft-skills {
+      padding: 20px;
+    }
+  
+    .tech-skillset ul, .soft-skillset ul {
+      flex-direction: column;
+    }
+  
+    .tech-skillset li, .soft-skillset li {
+      text-align: center;
+      width: 100%;
+    }
+  }
+  

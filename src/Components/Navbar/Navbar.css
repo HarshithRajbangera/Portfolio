@@ -1,0 +1,67 @@
+/* Navbar Styling */
+.navbar {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  padding: 15px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-item .nav-a {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 15px;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Navbar Hover Effect */
+.navbar-nav .nav-item .nav-a:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+}
+
+/* Active Link */
+.navbar-nav .nav-item .nav-a.active {
+  color: #ffcc00;
+  border-bottom: 2px solid #ffcc00;
+}
+
+/* Navbar Toggler (Mobile) */
+.navbar-toggler {
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+      padding: 10px;
+  }
+
+  .navbar-nav {
+      text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+      margin: 5px 0;
+  }
+
+  .navbar-nav .nav-item .nav-a {
+      display: block;
+      font-size: 16px;
+  }
+}
