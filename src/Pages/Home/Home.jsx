@@ -1,12 +1,13 @@
 import React from 'react'
-import './Home.css'
+import './Home.css';
+import profilePic from '../../assets/Profileppic1.JPG';
 
 const Home = () => {
   return (
     <>
       <div className="home-class">
         <div className="home-content">
-          <img src="/src/assets/Profileppic1.JPG" alt="profileimg" />
+          <img src={profilePic} alt="profileimg" />
           <h1 className="content-head">Hlo,My name is Harshith Raj</h1>
           <p className="content">Highly motivated and results-oriented Full Stack Developer with a strong foundation in C and Java. Proven
             ability to learn and adapt quickly to new technologies, demonstrated through successful completion of
